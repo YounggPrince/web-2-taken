@@ -6,13 +6,30 @@
  console.log(h1Element);
 
  h1Element.style.backgroundColor = 'red';
+document.getElementById("Prince").style.textDecoration = "underline"
+
+ 
 
 
- let PrinceElement = document.querySelector('#Prince');// this is identical
- console.log(PrinceElement);
- PrinceElement.style.backgroundColor = 'red';
 
- document.getElementById("Prince").style.textDecoration = "underline"
+ let klasseNaam = 'derde-rij';
+ let rij = document.getElementsByClassName(klasseNaam)
+
+ console.log(rij);
+
+ 
+
+for (let element of rij){ 
+    console.log (element)
+
+    element.style.backgroundColor = "red";
+}
+
+ 
+
+
+
+ 
 
 
 
