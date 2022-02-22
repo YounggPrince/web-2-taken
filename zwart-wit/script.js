@@ -16,7 +16,12 @@ const select = document.querySelector('select');
       }
     // NIETS VERANDEREN AAN CODE HIERBOVEN
     // voeg hier code toe, zodat afhankelijk van de waarde, de kleur word aangepast
-
+   if (select.value === 'purple') {
+  updateBackgroundAndTextColor('purple', 'red');
+} else if (select.value === 'red') {
+  updateBackgroundAndTextColor('red', 'purple');
+}
 
     // NIETS VERANDEREN AAN CODE HIERONDER
+    // voeg hier code toe, zodat afhankelijk van de waarde, de kleur word aangepast
   }
