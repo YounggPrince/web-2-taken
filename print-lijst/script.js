@@ -12,3 +12,12 @@ for (let Artist of lijstArtist) {
 
 
 
+
+    const namen = ["Dirk", "Sandy", "Tormund", "Dahlia"];
+
+for (let i = 0; i < namen.length; i++) {
+    // Gebruik de teller i als index van de array
+    // Elke iteratie wordt er dus een nieuw element aangesproken
+    console.log(namen[i]);
+
+
