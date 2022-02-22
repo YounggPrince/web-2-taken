@@ -17,4 +17,6 @@ const select = document.querySelector('select');
     // NIETS VERANDEREN AAN CODE HIERBOVEN
     // voeg hier code toe, zodat afhankelijk van de waarde, de kleur word aangepast
 
+
+    // NIETS VERANDEREN AAN CODE HIERONDER
   }
