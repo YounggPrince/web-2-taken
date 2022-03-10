@@ -1,6 +1,7 @@
 /** pas de kleuren aan naar eigen smaak, zorg gwn voor contrast & eenduidig thema **/
+
 body {
-  background-color: rgb(167, 8, 3);
+  background-image: url('dollar.jpg');
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -10,18 +11,19 @@ h1 {
 
 p {
   text-align: center;
+  color: rgb(0, 0, 0);
 }
 
 /** onderstaande styling mag gerust verwijderd worden **/
 
 .menu a:visited {
-  color: rgb(116, 29, 29);
+  color: rgb(0, 0, 0);
   background-color: inherit;
 }
 
 ul.menu {
   display: flex;
-  color: black;
+  color: rgb(0, 0, 0);
   justify-content: space-evenly;
   list-style: none;
   font-size: 25px;
@@ -35,3 +37,24 @@ hr {
 .centreer {
   display: flex;
 }
+.voetbal{
+  height: 500px;
+  width: 500px;
+}
+.Movie{
+  height: 500px;
+  width: 900px;
+}
+.race:hover{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1)
+}
+.race{
+  height: 500px;
+  width: 500px;
+}
+     
+.kip{
+  text-align: center;
+  font-family: 'Poppins', sans-serif; 
+  }
