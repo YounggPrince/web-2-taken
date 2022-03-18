@@ -19,7 +19,9 @@ const selectVoorTekstKleur = document.querySelector('#tekstkleur');
   function updateBackgroundColor(achtergrondKleur) {
     html.style.backgroundColor = achtergrondKleur;
   }
+  
 selectVoorAchtergrondKleur.onchange = function () {
+
   console.log('huidige waaardevan de select / dropdown:', selectVoorAchtergrondKleur.value);
   if (selectVoorAchtergrondKleur.value === 'black') {
      updateBackgroundColor('black', 'white');
@@ -27,7 +29,9 @@ selectVoorAchtergrondKleur.onchange = function () {
    updateBackgroundColor('white', 'black');
  }
 }
+
 selectVoorAchtergrondKleur.onchange = function () {
+
   console.log('huidige waarde van de select / dropdown:', selectVoorTekstKleur.value);
   if (selectVoorTekstKleur.value === 'black'){
     updateTextColor('black, white');
