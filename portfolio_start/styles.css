@@ -12,6 +12,8 @@ h1 {
 p {
   text-align: center;
   color: rgb(0, 0, 0);
+  font-size: 25px;
+  
 }
 
 /** onderstaande styling mag gerust verwijderd worden **/
@@ -38,8 +40,8 @@ hr {
   display: flex;
 }
 .voetbal{
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
 }
 .Movie{
   height: 500px;
@@ -50,11 +52,23 @@ hr {
   transform: scaleX(-1)
 }
 .race{
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
 }
      
 .kip{
   text-align: center;
   font-family: 'Poppins', sans-serif; 
+  }
+  .p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif; 
+    }
+  .chess{
+    height: 500px;
+    width: 900px;
+  }
+  .bergen{
+    height: 500px;
+    width: 900px;
   }
